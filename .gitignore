@@ -1,0 +1,65 @@
+!.gitmodule
+composer.phar
+/.devcontainer/
+/app/Plugin/
+/app/config/
+/app/DoctrineMigrations/
+/app/PluginData/
+/app/proxy/
+/bin/
+/dockerbuild/
+/gulp/
+/src/
+/var/
+/vendor/
+.htaccess
+/*.json
+/*.yml
+/*.js
+/*.lock
+node_modules
+!/var/.gitkeep
+!/var/.htaccess
+# !/app/Plugin/.gitkeep
+# /app/PluginData/*
+!/app/PluginData/.gitkeep
+!/app/template/admin
+!/app/template/default
+!/app/template/user_data
+!/app/template/smartphone
+/app/proxy/entity/*
+!/app/proxy/entity/.gitkeep
+/html/bundle/
+/html/plugin/
+# /html/plugin/*
+# !/html/plugin/.gitkeep
+/html/upload/
+# /html/upload/save_image/*
+# !/html/upload/save_image/.gitkeep
+# !/html/upload/save_image/no_image_product.png
+/html/upload/temp_image/*
+!/html/upload/temp_image/.gitkeep
+/html/template/*
+!/html/template/admin
+!/html/template/default
+!/html/template/install
+/html/user_data/
+# /html/user_data/*
+!/html/user_data/.gitkeep
+!/html/user_data/assets/css/customize.css
+!/html/user_data/assets/js/customize.js
+/tests/tmp/*
+/reports/*
+.idea
+.vscode/
+*.php~
+.env*
+.maintenance
+*.neon
+COPYING
+Dockerfile
+index.php
+maintenance.php
+nginx.conf.sample
+robots.txt
+web.config
